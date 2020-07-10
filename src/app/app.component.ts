@@ -11,7 +11,7 @@ export class AppComponent {
     title = 'chartjs';
 
     public pieChartOptions: ChartOptions = {
-        responsive: true,
+        responsive: false,
         legend: {
             position: 'top',
         },
